@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_calculator_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_calculator_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1,432.380 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="121"></NameColumnWidth>
+      <ValueColumnWidth column_width="76"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/A" type="array">
+      <obj_property name="ElementShortName">A[15:0]</obj_property>
+      <obj_property name="ObjectShortName">A[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/B" type="array">
+      <obj_property name="ElementShortName">B[15:0]</obj_property>
+      <obj_property name="ObjectShortName">B[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/result" type="array">
+      <obj_property name="ElementShortName">result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">result[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/Z" type="logic">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/N" type="logic">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/V" type="logic">
+      <obj_property name="ElementShortName">V</obj_property>
+      <obj_property name="ObjectShortName">V</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/C" type="logic">
+      <obj_property name="ElementShortName">C</obj_property>
+      <obj_property name="ObjectShortName">C</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/is_sub" type="logic">
+      <obj_property name="ElementShortName">is_sub</obj_property>
+      <obj_property name="ObjectShortName">is_sub</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/is_slt" type="logic">
+      <obj_property name="ElementShortName">is_slt</obj_property>
+      <obj_property name="ObjectShortName">is_slt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/do_sub" type="logic">
+      <obj_property name="ElementShortName">do_sub</obj_property>
+      <obj_property name="ObjectShortName">do_sub</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/and_out" type="array">
+      <obj_property name="ElementShortName">and_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">and_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/or_out" type="array">
+      <obj_property name="ElementShortName">or_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">or_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/xor_out" type="array">
+      <obj_property name="ElementShortName">xor_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">xor_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/not_out" type="array">
+      <obj_property name="ElementShortName">not_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">not_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/b_eff" type="array">
+      <obj_property name="ElementShortName">b_eff[15:0]</obj_property>
+      <obj_property name="ObjectShortName">b_eff[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/add_full" type="array">
+      <obj_property name="ElementShortName">add_full[16:0]</obj_property>
+      <obj_property name="ObjectShortName">add_full[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/sum" type="array">
+      <obj_property name="ElementShortName">sum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/cout" type="logic">
+      <obj_property name="ElementShortName">cout</obj_property>
+      <obj_property name="ObjectShortName">cout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/ov" type="logic">
+      <obj_property name="ElementShortName">ov</obj_property>
+      <obj_property name="ObjectShortName">ov</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/slt_out" type="array">
+      <obj_property name="ElementShortName">slt_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">slt_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/lsl_out" type="array">
+      <obj_property name="ElementShortName">lsl_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">lsl_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/lsr_out" type="array">
+      <obj_property name="ElementShortName">lsr_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">lsr_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/asr_out" type="array">
+      <obj_property name="ElementShortName">asr_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">asr_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator_top/DUT/ALU/mux_out" type="array">
+      <obj_property name="ElementShortName">mux_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_out[15:0]</obj_property>
+   </wvobject>
+</wave_config>
